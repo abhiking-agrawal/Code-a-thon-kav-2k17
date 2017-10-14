@@ -94,16 +94,26 @@
                     function(event, toState, toParams, fromState, fromParams) {
                         stateCounts.changes++;
                         handlingStateChangeError = false;
-                        if(toState && toState.name == "dashboard"){
-                            sketch.start()
-                        }else{
-                            sketch.clear()
-                            sketch.stop()
-                        }
+                        chaeckSketchStatus(toState);   
+                        $(window).blur(function(e) {
+                            chaeckSketchStatus(toState);
+                        });
+                        $(window).focus(function(e) {
+                            chaeckSketchStatus(toState);
+                        });
                         var title = config.docTitle + ' ' + (toState.title || '');
                         $rootScope.title = title; // data bind to <title>
                     }
                 );
+            }
+
+            function chaeckSketchStatus(toState){
+                if(toState && toState.name == "dashboard"){
+                    sketch.start()
+                }else{
+                    sketch.clear()
+                    sketch.stop()
+                }
             }
         }
     }

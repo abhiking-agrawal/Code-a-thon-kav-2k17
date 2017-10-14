@@ -8,6 +8,7 @@
         /* Feature areas */
         'app.shell',
         'app.dashboards',
-        'app.vision'
+        'app.vision',
+        'app.contactus'
     ]);
 })();

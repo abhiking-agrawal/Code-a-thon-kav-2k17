@@ -5,13 +5,13 @@
         .module('app.contactus')
         .run(appRun);
 
-    appRun.$inject = ['routerHelper', 'dataService'];
+    appRun.$inject = ['routerHelper'];
     /* @ngInject */
-    function appRun(routerHelper, dataService) {
-        routerHelper.configureStates(getStates(dataService), '/');
+    function appRun(routerHelper) {
+        routerHelper.configureStates(getStates(), '/');
     }
 
-    function getStates(dataService) {
+    function getStates() {
         return [
             {
                 state: 'contactus',
@@ -19,10 +19,7 @@
                     url: '/contactus',
                     templateUrl: 'app/contactus/views/contactUs.view.client.html',
                     controller: 'contactUsController as vm',                    
-                    title: 'Contact Us',
-                      resolve : {
-                        checkLoggedIn : dataService.isLoggedIn
-                    }           
+                    title: 'Contact Us'  
                 }
             }
         ];

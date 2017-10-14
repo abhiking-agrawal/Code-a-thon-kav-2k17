@@ -34,8 +34,17 @@ div.main {
     padding-left: 2em;
     font-size: 1.5em;
 }
-a,a:hover,a:visited{
+li a.active{
+    border-bottom: 2px solid #1f5992;
+    padding-bottom: 4px;
+}
+a, a:hover, a:visited,a:link{
     color :white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
 }
 
 .main-head{
@@ -46,10 +55,15 @@ a,a:hover,a:visited{
     color: rgba(58, 69, 74, 0.96);  
 }
 
+
 .main-hr{
     height: 1px;
     width: 30%;
     background: black;
     box-shadow: 2px 2px 9px 0px #4b8c8c;
     color: black;
+}
+
+.main-sub{
+    text-shadow: 0 0 16px black;
 }
