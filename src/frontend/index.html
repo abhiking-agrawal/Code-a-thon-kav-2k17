@@ -1,12 +1,59 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html ng-app="app" ng-strict-di>
+
 <head>
-<title>Page Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Code-a-th0n-2k17</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <base href="/">
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        
+        .ng-hide {
+            display: none!important;
+        }
+    </style>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
+    <div>
+        <div ng-include="'app/shell/views/shell.view.client.html'"></div>
+    </div>
+    
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="lib/sketch.min.js"></script>
+    <script src="lib/animation.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
 
-<h1>Hello World</h1>
-<p>This is a paragraph.</p>
 
+    <script src="/app/app.module.client.js"></script>
+    <script src="/app/aboutus/aboutUs.module.client.js"></script>
+    <script src="/app/core/core.module.client.js"></script>
+    <script src="/app/contactus/contactUs.module.client.js"></script>
+    <script src="/app/dashboard/dashboard.module.client.js"></script>
+    <script src="/app/shell/shell.module.client.js"></script>
+    <script src="/app/blocks/router/router.module.client.js"></script>
+    <script src="/app/core/config.client.js"></script>
+
+    <script src="/app/aboutus/controllers/aboutus.controller.client.js"></script>
+    <script src="/app/aboutus/routes/aboutUs.routes.client.js"></script>
+    <script src="/app/blocks/router/router-helper.provider.client.js"></script>
+    <script src="/app/contactus/routes/contactUs.routes.client.js"></script>
+    <script src="/app/dashboard/controllers/dashboard.controller.client.js"></script>
+    <script src="/app/dashboard/routes/dashboard.routes.client.js"></script>
+    <script src="/app/shell/controllers/shell.controller.client.js"></script>
+    <script src="/app/shell/services/shell.service.client.js"></script>
 </body>
+
 </html>
