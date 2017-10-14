@@ -2,24 +2,54 @@ body{
 	margin:0px;
     padding:0px;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     color: white;
-}
-
-canvas {
     background: 
-      linear-gradient(
-        hsl(200, 50%, 80%) 0%, 
-        hsl(200, 30%, 95%) 75%)
-    ;
+    linear-gradient(
+      hsl(200, 50%, 80%) 0%, 
+      hsl(200, 30%, 95%) 75%);
+}
+ .logo{
+     width: 15em;
+     height : 7em;
+ }
+ 
+canvas {
+   
     display: block;
-  }
+}
   
-  div.main {
+div.main {
     height: 100%;
-    left: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    background: url(https://jackrugile.com/images/misc/skyline-texture.png);
-  }
+    margin-left: 2em;
+}
+
+.headnav ul{
+    margin-top : 1.6em;
+}
+.headnav li{
+    padding-left: 2em;
+    font-size: 1.5em;
+}
+a,a:hover,a:visited{
+    color :white;
+}
+
+.main-head{
+    text-align: center;
+    margin : 3.5em 3.5em 0 3.5em;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 3px #333;
+    color: rgba(58, 69, 74, 0.96);  
+}
+
+.main-hr{
+    height: 1px;
+    width: 30%;
+    background: black;
+    box-shadow: 2px 2px 9px 0px #4b8c8c;
+    color: black;
+}

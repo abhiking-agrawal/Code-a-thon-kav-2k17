@@ -7,6 +7,7 @@
         'app.core',
         /* Feature areas */
         'app.shell',
-        'app.dashboards'
+        'app.dashboards',
+        'app.vision'
     ]);
 })();

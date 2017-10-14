@@ -10,6 +10,5 @@
     function shellController($scope, $state) {
         //Fields
         var vm = this;
-        $state.go('dashboard');
     }
 })();

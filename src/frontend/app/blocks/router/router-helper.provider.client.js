@@ -94,6 +94,12 @@
                     function(event, toState, toParams, fromState, fromParams) {
                         stateCounts.changes++;
                         handlingStateChangeError = false;
+                        if(toState && toState.name == "dashboard"){
+                            sketch.start()
+                        }else{
+                            sketch.clear()
+                            sketch.stop()
+                        }
                         var title = config.docTitle + ' ' + (toState.title || '');
                         $rootScope.title = title; // data bind to <title>
                     }
