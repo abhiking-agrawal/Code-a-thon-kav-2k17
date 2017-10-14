@@ -1,1 +1,16 @@
-<div class="main"> </div>
+<!--<div ng-if="!simpleLayout" ng-controller="shellController as vm">
+    <div ng-if="!simpleLayout" ng-include="'app/shell/views/header.view.client.html'"></div>
+   <div class="clearfix"></div>
+    <div ng-if="!simpleLayout" class="main-content">
+        <div ui-view></div>
+    </div>
+    <div ng-if="simpleLayout" ui-view autoscroll="false"></div>
+    <div class="clearfix"></div>
+    <div ng-if="!simpleLayout" ng-include="'app/shell/views/footer.view.client.html'"></div>
+</div>-->
+
+<div class="main"  ng-controller="shellController as vm">
+    <div  ng-include="'app/shell/views/header.view.client.html'"></div>
+   <div class="clearfix"></div>
+    <div ui-view ></div>
+</div>

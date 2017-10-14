@@ -5,12 +5,11 @@
         .module('app.shell')
         .controller('shellController', shellController)
 
-    shellController.$inject = ['$scope'];
+    shellController.$inject = ['$scope','$state'];
     /* @ngInject */
-    function shellController($scope) {
-
+    function shellController($scope, $state) {
         //Fields
         var vm = this;
-        
+        $state.go('dashboard');
     }
 })();
