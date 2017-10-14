@@ -27,5 +27,5 @@ This README would normally document whatever steps are necessary to get your app
 ### Who do I talk to? ###
 
 * Repo owner or admin: We are the ones with a vision to transform your life from a student version to the one fittable in today's
-*                      corporate world. So you may reach us out any time any day and we promise to get back to you within an hour.
+                       corporate world. So you may reach us out any time any day and we promise to get back to you within an hour.
 * Other community or team contact
