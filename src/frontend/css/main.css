@@ -13,7 +13,9 @@ body{
      width: 15em;
      height : 7em;
  }
- 
+ .font-black{
+     color: black;
+ }
 canvas {
    
     display: block;
@@ -119,4 +121,54 @@ a:hover{
 
 .vision-container{
     margin : 5em !important;
+}
+
+.circle-multiline {
+    display: table-cell;
+    height: 10em;
+    width: 10em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #6b6b6b;
+    color: white;
+    cursor: pointer;
+}
+.circle-multiline:hover{
+    background: black;
+}
+.circle-multiline span{
+    font-size: 21px;
+}
+.marginTopLR{
+    margin-top: 2em;
+    margin-left: 0em;
+}
+.marginLeftLR{
+    margin-left: 3em;
+}
+.left-bubble{
+    margin-left: 2em;
+}
+.learning-bubble{
+
+    display: inline-block;
+    position: relative;
+      background-color: lightyellow;
+      border-radius: 1.5em;
+      box-shadow: 3px 4px 4px 1px #b5d6e6;
+}
+.bubble-desc{
+    font-size: 1.2em;
+}
+.learning-block{
+    margin:5em 5em 0 5em;
+    display: inline-block;
+    position: relative;
+      background-color: lightyellow;
+      box-shadow: 3px 4px 4px 1px #b5d6e6;
+}
+.backToTop{
+    cursor: pointer;
+    font-size: 400;
 }

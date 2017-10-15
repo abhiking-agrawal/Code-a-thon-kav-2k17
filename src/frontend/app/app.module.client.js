@@ -9,6 +9,7 @@
         'app.shell',
         'app.dashboards',
         'app.vision',
-        'app.contactus'
+        'app.contactus',
+        'app.learningPath'
     ]);
 })();
