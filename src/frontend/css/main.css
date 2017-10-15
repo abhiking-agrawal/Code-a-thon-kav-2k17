@@ -24,7 +24,7 @@ div.main {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
 
 .headnav ul{
@@ -66,4 +66,57 @@ a:hover{
 
 .main-sub{
     text-shadow: 0 0 16px black;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+	/* margin: 40px; */
+  display: inline-block;
+  position: relative;
+	/* width: 70em;
+	min-height: 10em; */
+    background-color: lightyellow;
+    border-bottom-right-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    border-top-right-radius: 1em;
+    box-shadow: 3px 4px 4px 1px #b5d6e6;
+}
+
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: lightyellow transparent transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext{
+  padding: 2em;
+    /* text-align: left; */
+  line-height: 1.5em;
+  color: black;
+}
+/* End CSS talk bubble */
+
+.vision-container{
+    margin : 5em !important;
 }
