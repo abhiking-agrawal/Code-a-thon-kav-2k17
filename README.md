@@ -37,7 +37,7 @@ One will begin as a student and end up as a working professional upon working wi
 * Demo video
 [Youtube](https://youtu.be/aduwcr88AJM)
 * Bitbucket
-[Bitbucket](https://bitbucket.org/s530670/code-a-thon-2017)
+[Repository](https://bitbucket.org/s530670/code-a-thon-2017)
 * Heroku
 [Live Demo](https://code-a-thon-2k17.herokuapp.com/)
  
