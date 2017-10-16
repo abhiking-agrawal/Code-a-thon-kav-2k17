@@ -26,22 +26,22 @@ One will begin as a student and end up as a working professional upon working wi
 
 
 ### ABOUT THE DEVELOPERS
-- Abhijeet Agrawal
+* Abhijeet Agrawal
  - Graduate student at Northwest Missouri State University
  - Possess in-depth knowledge in Full Stack Development using MEAN Stack
-- Vineeth Agarwal
+* Vineeth Agarwal
  - Graduate student at Northwest Missouri State University
  - Possess rich knowledge in Web Development and backend programming languages
-- Kishan Kalburgi Srinivas
+* Kishan Kalburgi Srinivas
  - Graduate student at Northwest Missouri State University
  - Posses high level skills in designing the web applications
-- Ujjawal Kumar
+* Ujjawal Kumar
  - Graduate student at Northwest Missouri State University
  - Possess efficient skills in developing and testing web applications.
 
 
 ### Link
 
-Demo video - Youtube 
+Demo video - 
 [Youtube](https://youtu.be/aduwcr88AJM)
  
