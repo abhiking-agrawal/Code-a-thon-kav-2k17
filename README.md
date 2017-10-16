@@ -9,7 +9,7 @@ One will begin as a student and end up as a working professional upon working wi
 ## Future Scope
   Our future scope is to introduce a learning platform for students that includes online videos, virtual seminars, e-text books. We would introduce the elementary level quizes in order to know the ability of a student and guide accordingly. Provide certificates upon the completion of courses. Introducing different sectors other than IT. A job portal scope to create connectivity between students and the employers through us. 
 
-## TECHNOLOGIES USED
+## Technologies Used
 
 * Frontend Technologies: AngularJS,HTML,CSS,Bootstrap
 * Backend Technologies : NodeJS, Express JS
@@ -25,7 +25,7 @@ One will begin as a student and end up as a working professional upon working wi
 * Open browser "http://localhost:3000"
 
 
-### ABOUT THE DEVELOPERS
+### About Us
 * Abhijeet Agrawal : Graduate student at Northwest Missouri State University, Possess in-depth knowledge in Full Stack Development using MEAN Stack
 * Vineeth Agarwal : Graduate student at Northwest Missouri State University, Possess rich knowledge in Web Development and backend programming languages
 * Kishan Kalburgi Srinivas : Graduate student at Northwest Missouri State University, Posses high level skills in designing the web applications
