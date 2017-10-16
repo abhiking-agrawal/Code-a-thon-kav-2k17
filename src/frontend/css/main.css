@@ -10,8 +10,8 @@ body{
       hsl(200, 30%, 95%) 75%);
 }
  .logo{
-     width: 15em;
-     height : 7em;
+     width: 250px;
+     height : 100px;
  }
  .font-black{
      color: black;
@@ -41,7 +41,7 @@ li a.active{
     padding-bottom: 4px;
 }
 a, a:hover, a:visited,a:link{
-    color :white;
+    color :#320202;;
     text-decoration: none;
 }
 a:hover{
@@ -171,4 +171,15 @@ a:hover{
 .backToTop{
     cursor: pointer;
     font-size: 400;
+}
+#contact_us_form{
+    margin: 20px;
+}
+.ct-form label{
+    color : black;
+}
+
+.dev{
+    text-shadow: 0 0 7px #404040;
+    color: #2b0a0a;
 }
