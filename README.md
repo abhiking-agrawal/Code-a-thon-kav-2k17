@@ -34,10 +34,10 @@ One will begin as a student and end up as a working professional upon working wi
 
 ### Link
 
--Demo video
+* Demo video
 [Youtube](https://youtu.be/aduwcr88AJM)
--Bitbucket
+* Bitbucket
 [Bitbucket](https://bitbucket.org/s530670/code-a-thon-2017)
--Heroku
+* Heroku
 [Live Demo](https://code-a-thon-2k17.herokuapp.com/)
  
